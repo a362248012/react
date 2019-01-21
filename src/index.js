@@ -129,10 +129,66 @@ class Game extends React.Component {
     )
   }
 }
+class Clock extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {date: new Date()}
+  }
+
+  componentDidMount () {
+    this.timeID = setInterval(
+      () => this.tick()
+    , 1000)
+  }
+  componentWillUnmount () {
+    clearInterval(this.timeID)
+  }
+
+  tick () {
+    this.setState({
+      date: new Date()
+    })
+  }
+
+  render () {
+    return (
+      <div>
+        <h1>HELLO WORLD</h1>
+        <h2>{this.state.date.toLocaleTimeString()}</h2>
+      </div>
+    )
+  }
+}
+class Toggle extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      isToggleOn: true
+    }
+    this.hankleClick = this.hankleClick.bind(this)
+  }
+
+  hankleClick () {
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
+    }))
+  }
+  render () {
+    return (
+      <button onClick={this.hankleClick}>
+        {this.state.isToggleOn ? 'No' : 'Off'}
+      </button>
+    )
+  }
+}
 
 // ========================================
 
 ReactDOM.render(
-  <Game/>,
+  <div>
+    <Game/>
+    <Clock/>
+    <Toggle/>
+  </div>,
   document.getElementById('root')
 )
