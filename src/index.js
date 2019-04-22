@@ -182,6 +182,18 @@ class Toggle extends React.Component {
   }
 }
 
+class Footer extends React.Component {
+  render () {
+    return (
+      <section>
+          <div>啊啊</div>
+          <span>啊啊</span>
+      </section>
+    )
+
+  }
+}
+
 // ========================================
 
 ReactDOM.render(
@@ -189,6 +201,7 @@ ReactDOM.render(
     <Game/>
     <Clock/>
     <Toggle/>
+    <Footer/>
   </div>,
   document.getElementById('root')
 )

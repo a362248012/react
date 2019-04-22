@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24cd00c0-e0e4-4452-afb0-a99377351f0c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,12 +29,19 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="186" column="16" lean-forward="true" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
+            <state relative-caret-position="112">
+              <caret line="184" column="37" selection-start-line="184" selection-start-column="37" selection-end-line="184" selection-end-column="37" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#!!block;n#Square#0" />
                 <element signature="n#!!block;n#calculateWinner#0" />
+                <element signature="e#269#394#0" />
+                <element signature="e#437#585#0" />
+                <element signature="n#Board#0" />
+                <element signature="n#Game#0" />
                 <element signature="n#Clock#0" />
+                <element signature="n#Toggle#0" />
+                <element signature="n#Footer#0" />
               </folding>
             </state>
           </provider>
@@ -88,10 +96,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="916" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="177" />
+    <option name="y" value="35" />
     <option name="width" value="937" />
-    <option name="height" value="1087" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -124,7 +133,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/nodeLearn" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -173,7 +182,11 @@
       <option name="presentableId" value="Default" />
       <updated>1547619107392</updated>
       <workItem from="1547619108827" duration="18372000" />
-      <workItem from="1547710925596" duration="4551000" />
+      <workItem from="1547710925596" duration="9001000" />
+      <workItem from="1548728034981" duration="599000" />
+      <workItem from="1550109297193" duration="599000" />
+      <workItem from="1550195143037" duration="599000" />
+      <workItem from="1551088503970" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="可以判断输赢">
       <created>1547634139442</created>
@@ -186,23 +199,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22923000" />
+    <option name="totallyTimeSpent" value="29267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1862" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="177" y="35" width="937" height="775" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.48913044" weight="0.18914473" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.48913044" visible="true" weight="0.189099" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50052685" side_tool="true" weight="0.6248637" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32706374" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49947312" weight="0.31952018" />
       <window_info id="npm" order="0" sideWeight="0.51086956" side_tool="true" weight="0.18914473" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32706374" />
       <window_info id="Structure" order="3" sideWeight="0.5105348" side_tool="true" weight="0.11064278" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3293348" />
-      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -218,18 +230,18 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="npm" order="0" sideWeight="0.51086956" side_tool="true" visible="true" weight="0.18914473" />
       <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32706374" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.48913044" visible="true" weight="0.18914473" />
       <window_info id="Structure" order="3" sideWeight="0.5105348" side_tool="true" weight="0.11064278" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3293348" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50052685" side_tool="true" weight="0.6248637" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49947312" weight="0.31952018" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -254,14 +266,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="184" column="37" selection-start-line="184" selection-start-column="37" selection-end-line="184" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#Square#0" />
+            <element signature="n#!!block;n#calculateWinner#0" />
+            <element signature="e#269#394#0" />
+            <element signature="e#437#585#0" />
+            <element signature="n#Board#0" />
+            <element signature="n#Game#0" />
+            <element signature="n#Clock#0" />
+            <element signature="n#Toggle#0" />
+            <element signature="n#Footer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="184" column="37" selection-start-line="184" selection-start-column="37" selection-end-line="184" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#Square#0" />
+            <element signature="n#!!block;n#calculateWinner#0" />
+            <element signature="e#269#394#0" />
+            <element signature="e#437#585#0" />
+            <element signature="n#Board#0" />
+            <element signature="n#Game#0" />
+            <element signature="n#Clock#0" />
+            <element signature="n#Toggle#0" />
+            <element signature="n#Footer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4600">
+          <caret line="184" column="37" selection-start-line="184" selection-start-column="37" selection-end-line="184" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#Square#0" />
+            <element signature="n#!!block;n#calculateWinner#0" />
+            <element signature="e#269#394#0" />
+            <element signature="e#437#585#0" />
+            <element signature="n#Board#0" />
+            <element signature="n#Game#0" />
+            <element signature="n#Clock#0" />
+            <element signature="n#Toggle#0" />
+            <element signature="n#Footer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="184" column="37" selection-start-line="184" selection-start-column="37" selection-end-line="184" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#Square#0" />
+            <element signature="n#!!block;n#calculateWinner#0" />
+            <element signature="e#269#394#0" />
+            <element signature="e#437#585#0" />
+            <element signature="n#Board#0" />
+            <element signature="n#Game#0" />
+            <element signature="n#Clock#0" />
+            <element signature="n#Toggle#0" />
+            <element signature="n#Footer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
           <caret line="80" column="73" lean-forward="true" selection-start-line="80" selection-start-column="73" selection-end-line="80" selection-end-column="73" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#Square#0" />
             <element signature="n#!!block;n#calculateWinner#0" />
+            <element signature="e#269#394#0" />
+            <element signature="e#437#585#0" />
+            <element signature="n#Board#0" />
+            <element signature="n#Game#0" />
             <element signature="n#Clock#0" />
+            <element signature="n#Toggle#0" />
+            <element signature="n#Footer#0" />
           </folding>
         </state>
       </provider>
@@ -272,9 +407,6 @@
     <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
@@ -292,14 +424,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="186" column="16" lean-forward="true" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
+        <state relative-caret-position="112">
+          <caret line="184" column="37" selection-start-line="184" selection-start-column="37" selection-end-line="184" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#Square#0" />
             <element signature="n#!!block;n#calculateWinner#0" />
+            <element signature="e#269#394#0" />
+            <element signature="e#437#585#0" />
+            <element signature="n#Board#0" />
+            <element signature="n#Game#0" />
             <element signature="n#Clock#0" />
+            <element signature="n#Toggle#0" />
+            <element signature="n#Footer#0" />
           </folding>
         </state>
       </provider>
